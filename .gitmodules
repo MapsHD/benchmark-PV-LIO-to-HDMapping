@@ -1,0 +1,9 @@
+[submodule "src/livox_ros_driver"]
+	path = src/livox_ros_driver
+	url = https://github.com/Livox-SDK/livox_ros_driver.git
+[submodule "src/pv-lio-to-hdmapping/src/3rdparty/LASzip"]
+	path = src/pv-lio-to-hdmapping/src/3rdparty/LASzip
+	url = https://github.com/LASzip/LASzip.git
+[submodule "src/PV-LIO"]
+	path = src/PV-LIO
+	url = https://github.com/HViktorTsoi/PV-LIO.git
