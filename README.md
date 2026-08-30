@@ -11,18 +11,18 @@ It should be located in '~/hdmapping-benchmark/data'.
 ```shell
 mkdir -p ~/hdmapping-benchmark
 cd ~/hdmapping-benchmark
-git clone https://github.com/marcinmatecki/PV-LIO-to-HDMapping --recursive
-cd PV-LIO-to-HDMapping
+git clone https://github.com/MapsHD/benchmark-PV-LIO-to-HDMapping --recursive
+cd benchmark-PV-LIO-to-HDMapping
 git checkout Bunker-DVI-Dataset-reg-1
 docker build -t pv-lio_noetic .
 ```
 
 ## Step 3 (run docker, file 'reg-1.bag' should be in '~/hdmapping-benchmark/data')
 ```shell
-cd ~/hdmapping-benchmark/PV-LIO-to-HDMapping
+cd ~/hdmapping-benchmark/benchmark-PV-LIO-to-HDMapping
 chmod +x docker_session_run-ros1-pv-lio.sh 
 cd ~/hdmapping-benchmark/data
-~/hdmapping-benchmark/PV-LIO-to-HDMapping/docker_session_run-ros1-pv-lio.sh reg-1.bag .
+~/hdmapping-benchmark/benchmark-PV-LIO-to-HDMapping/docker_session_run-ros1-pv-lio.sh reg-1.bag .
 ```
 
 ## Step 4 (Open and visualize data)
