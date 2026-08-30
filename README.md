@@ -43,3 +43,7 @@ trajectory_lio_*.csv
 
 Result:
 <img width="1344" height="799" alt="pvlio" src="https://github.com/user-attachments/assets/9ca1e21d-9e7c-4478-bf91-fa0b667f7d8c" />
+
+
+## Contact email
+januszbedkowski@gmail.com
